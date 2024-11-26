@@ -1,6 +1,7 @@
 {
   "item.cascade.raw_cascade": "Raw Cascade",
   "item.cascade.cascade": "Cascade",
+  "item.cascade.cascade_hammer": "Cascade Hammer",
 
-  "itemGroup.Cascade.cascade": "Cascadian"
+  "itemGroup.cascade.cascade": "Cascadian"
 }

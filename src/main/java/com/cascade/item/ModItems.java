@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
@@ -14,6 +15,9 @@ public class ModItems {
 
     public static final Item  CASCADE = registerItem("cascade",
             new Item(new FabricItemSettings().group(ModItemGroup.CASCADE)));
+
+    public static final Item  CASCADE_HAMMER = registerItem("cascade_hammer",
+            new CascadeHammer(new FabricItemSettings().group(ModItemGroup.CASCADE).maxCount(1).rarity(Rarity.RARE)));
 
 
 
