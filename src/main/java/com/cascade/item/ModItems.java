@@ -10,10 +10,10 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item  RAW_CASCADE = registerItem("raw_cascade",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.CASCADE)));
 
     public static final Item  CASCADE = registerItem("cascade",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+            new Item(new FabricItemSettings().group(ModItemGroup.CASCADE)));
 
 
 
